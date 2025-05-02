@@ -1,1 +1,1 @@
-# template repository
+# kenshoo-jenkins-shared-libs
