@@ -15,3 +15,6 @@ helm upgrade --install jenkins ./charts/jenkins \
   -n $NAMESPACE
 
 echo "Jenkins deployment initiated. Run 'kubectl get pods -n $NAMESPACE' to check status."
+
+kubectl port-forward -n jenkins svc/jenkins 8888:8080
+echo "---Jenkins pod is now exposed on port 8080 (127.0.0.1)"
