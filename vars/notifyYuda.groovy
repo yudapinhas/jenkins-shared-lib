@@ -6,3 +6,4 @@ def call(String status) {
         body: """<p>Build <b>${status}</b>: <a href="${env.BUILD_URL}">${env.JOB_NAME} #${env.BUILD_NUMBER}</a></p>""",
         mimeType: 'text/html'
     )
+}
