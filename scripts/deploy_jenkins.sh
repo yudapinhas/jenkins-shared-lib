@@ -2,7 +2,7 @@
 set -e
 
 NAMESPACE="jenkins"
-ROOT_DIR=~/Documents/GDrive/SKAI/Automation/personal/helmfiles
+ROOT_DIR=~/Documents/GDrive/SKAI/Automation/personal/helmfiles # <--- EDIT TO YOUR PATH
 cd "$ROOT_DIR"
 
 echo "Creating/Updating namespace..."
